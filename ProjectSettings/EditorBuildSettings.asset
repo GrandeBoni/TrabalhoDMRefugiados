@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cena/CenaDasFases/Aliens/Alien_3.unity
     guid: a607e449939b924428a260b661c141a4
+  - enabled: 1
+    path: Assets/Cena/TelaFinal/Final.unity
+    guid: a34d01c10fa9205439d32046dd8575fe
   m_configObjects: {}

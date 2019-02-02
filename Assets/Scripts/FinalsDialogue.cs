@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class FinalsDialogue : MonoBehaviour {
-    public int timeFinal;
 
-    public GameObject Esse;
+    public GameObject thiss;
+
+	public GameObject numToFinal;
 	// Use this for initialization
 	void Start () {
-        timeFinal = 0;
+		numToFinal = GameObject.FindGameObjectWithTag("ToFinal");
 	}
 
     private void OnEnable()
@@ -19,8 +20,12 @@ public class FinalsDialogue : MonoBehaviour {
 
     private void VoltaParaOInicio()
     {
+        thiss.SetActive(false);
         SceneManager.LoadScene("Inicio");
-        Esse.SetActive(false);
+		numToFinal.GetComponent<FinalGame>().numX++;
+		//FinalGame.num++;
+
+		//print(FinalGame.num);
     }
     
 }

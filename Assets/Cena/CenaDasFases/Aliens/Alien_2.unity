@@ -649,6 +649,7 @@ GameObject:
   - component: {fileID: 121558623}
   - component: {fileID: 121558625}
   - component: {fileID: 121558624}
+  - component: {fileID: 121558626}
   m_Layer: 5
   m_Name: You Fail
   m_TagString: Untagged
@@ -713,6 +714,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121558622}
   m_CullTransparentMesh: 0
+--- !u!114 &121558626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121558622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thiss: {fileID: 121558622}
 --- !u!1 &147579925
 GameObject:
   m_ObjectHideFlags: 0
@@ -7459,8 +7473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeFinal: 0
-  Esse: {fileID: 1538180115}
+  thiss: {fileID: 1538180115}
 --- !u!114 &1538180118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7686,8 +7699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeFinal: 0
-  Esse: {fileID: 1565487323}
+  thiss: {fileID: 1565487323}
 --- !u!1 &1571360387
 GameObject:
   m_ObjectHideFlags: 0

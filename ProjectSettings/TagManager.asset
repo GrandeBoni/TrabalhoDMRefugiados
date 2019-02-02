@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cena_Alien
+  - Botao_Certa
+  - Panel3
+  - Panel5
+  - Panel4
+  - Panel2
+  - Botao_Errado
+  - Cena_Ida
+  - ToFinal
   layers:
   - Default
   - TransparentFX

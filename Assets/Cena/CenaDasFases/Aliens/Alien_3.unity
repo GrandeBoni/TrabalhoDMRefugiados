@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 14048691}
   - component: {fileID: 14048693}
   - component: {fileID: 14048692}
+  - component: {fileID: 14048694}
   m_Layer: 5
   m_Name: Panel Win 2
   m_TagString: Untagged
@@ -409,6 +410,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14048690}
   m_CullTransparentMesh: 0
+--- !u!114 &14048694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14048690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thiss: {fileID: 14048690}
 --- !u!1 &24214451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,7 +2217,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "parabens, voc\xEA fez um amigo\nFinal : 11"
+  m_Text: "parabens, voc\xEA fez um amigo"
 --- !u!222 &203655099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2661,6 +2675,7 @@ GameObject:
   - component: {fileID: 236831257}
   - component: {fileID: 236831259}
   - component: {fileID: 236831258}
+  - component: {fileID: 236831260}
   m_Layer: 5
   m_Name: Panel Lose 1
   m_TagString: Untagged
@@ -2725,6 +2740,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236831256}
   m_CullTransparentMesh: 0
+--- !u!114 &236831260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236831256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thiss: {fileID: 236831256}
 --- !u!1 &238179340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3293,7 +3321,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Que pena, Voc\xEA n\xE3o fez um amigo\nFinal : 11"
+  m_Text: "Que pena, Voc\xEA n\xE3o fez um amigo"
 --- !u!222 &297549441
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5624,6 +5652,7 @@ GameObject:
   - component: {fileID: 639040384}
   - component: {fileID: 639040386}
   - component: {fileID: 639040385}
+  - component: {fileID: 639040387}
   m_Layer: 5
   m_Name: Panel Win 1
   m_TagString: Untagged
@@ -5688,6 +5717,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639040383}
   m_CullTransparentMesh: 0
+--- !u!114 &639040387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639040383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thiss: {fileID: 639040383}
 --- !u!1 &648409080
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,6 +7278,7 @@ GameObject:
   - component: {fileID: 871590847}
   - component: {fileID: 871590849}
   - component: {fileID: 871590848}
+  - component: {fileID: 871590850}
   m_Layer: 5
   m_Name: Panel Lose 3
   m_TagString: Untagged
@@ -7300,6 +7343,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871590846}
   m_CullTransparentMesh: 0
+--- !u!114 &871590850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871590846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thiss: {fileID: 871590846}
 --- !u!1 &900604267
 GameObject:
   m_ObjectHideFlags: 0
@@ -7599,7 +7655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Que pena, Voc\xEA n\xE3o fez um amigo\nFinal : 111"
+  m_Text: "Que pena, Voc\xEA n\xE3o fez um amigo"
 --- !u!222 &919817309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9657,7 +9713,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Que pena, Voc\xEA n\xE3o fez um amigo\nFinal : 1"
+  m_Text: "Que pena, Voc\xEA n\xE3o fez um amigo"
 --- !u!222 &1270487388
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12815,7 +12871,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "parabens, voc\xEA fez um amigo\nFinal : 1"
+  m_Text: "parabens, voc\xEA fez um amigo"
 --- !u!222 &1622889141
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13355,6 +13411,7 @@ GameObject:
   - component: {fileID: 1673277452}
   - component: {fileID: 1673277454}
   - component: {fileID: 1673277453}
+  - component: {fileID: 1673277455}
   m_Layer: 5
   m_Name: Panel Lose 2
   m_TagString: Untagged
@@ -13419,6 +13476,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673277451}
   m_CullTransparentMesh: 0
+--- !u!114 &1673277455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673277451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab5c1ff09bfbd543a9b531cd0c8965b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thiss: {fileID: 1673277451}
 --- !u!1 &1673901447
 GameObject:
   m_ObjectHideFlags: 0

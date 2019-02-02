@@ -29,7 +29,6 @@ public class PointAndClick : MonoBehaviour
     void CenaVolta()
     {
             SceneManager.LoadScene("Inicio");
-
     }
 
     void CenaDialogo()
