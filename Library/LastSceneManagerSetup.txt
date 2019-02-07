@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cena/TelaInicial/StartMenu.unity
+- path: Assets/Cena/CenaDasFases/Aliens/Alien_1.unity
   isLoaded: 1
   isActive: 1
