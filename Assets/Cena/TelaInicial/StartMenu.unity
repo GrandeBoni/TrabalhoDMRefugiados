@@ -144,10 +144,10 @@ RectTransform:
   m_Father: {fileID: 1180840434}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.101, y: 0}
+  m_AnchorMin: {x: 0.5828828, y: 0.08951042}
   m_AnchorMax: {x: 1, y: 0.67463535}
-  m_AnchoredPosition: {x: 372, y: 36.244003}
-  m_SizeDelta: {x: -249, y: -65}
+  m_AnchoredPosition: {x: 125, y: 1.7440033}
+  m_SizeDelta: {x: 245, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160912255
 MonoBehaviour:
@@ -460,10 +460,10 @@ RectTransform:
   m_Father: {fileID: 1180840434}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -136.5, y: 45}
-  m_SizeDelta: {x: -273, y: -152}
+  m_AnchorMin: {x: 0, y: 0.156}
+  m_AnchorMax: {x: 0.73600006, y: 0.9622395}
+  m_AnchoredPosition: {x: -1, y: -0.5}
+  m_SizeDelta: {x: -2, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633263913
 MonoBehaviour:
@@ -686,7 +686,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Clique em qualquer lugar para iniciar
+  m_Text: Click anywhere to start
 --- !u!222 &1935949867
 CanvasRenderer:
   m_ObjectHideFlags: 0

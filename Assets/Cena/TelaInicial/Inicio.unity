@@ -1491,10 +1491,10 @@ RectTransform:
   m_Father: {fileID: 1639574291}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.55700004, y: 0.62488544}
+  m_AnchorMin: {x: 0.558, y: 0.64469796}
   m_AnchorMax: {x: 0.7816016, y: 0.94500005}
-  m_AnchoredPosition: {x: 3.0100098, y: 4.4999847}
-  m_SizeDelta: {x: -2.119995, y: -23}
+  m_AnchoredPosition: {x: 2.5100098, y: -3.0000153}
+  m_SizeDelta: {x: -1.1199951, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1738151588
 Animator:
@@ -1664,7 +1664,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Em constru\xE7\xE3o de mais planetas\n"
+  m_Text: 'In construction of more planets
+
+'
 --- !u!222 &2111605962
 CanvasRenderer:
   m_ObjectHideFlags: 0
