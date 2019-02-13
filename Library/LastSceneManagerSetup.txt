@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cena/TelaFinal/Final.unity
+- path: Assets/Cena/TelaInicial/Credits.unity
   isLoaded: 1
   isActive: 1

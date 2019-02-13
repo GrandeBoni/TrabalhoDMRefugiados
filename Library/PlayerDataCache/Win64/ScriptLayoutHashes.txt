@@ -11,6 +11,7 @@ Assets/Cena/CenaDasFases/Aliens/Alien_1.unity
 Assets/Cena/CenaDasFases/Aliens/Alien_2.unity
 Assets/Cena/CenaDasFases/Aliens/Alien_3.unity
 Assets/Cena/TelaFinal/Final.unity
+Assets/Cena/TelaInicial/Credits.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ButtonClicled

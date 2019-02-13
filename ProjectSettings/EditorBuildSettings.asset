@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cena/TelaFinal/Final.unity
     guid: a34d01c10fa9205439d32046dd8575fe
+  - enabled: 1
+    path: Assets/Cena/TelaInicial/Credits.unity
+    guid: 46d83243116bb854c8a215ea944c2261
   m_configObjects: {}

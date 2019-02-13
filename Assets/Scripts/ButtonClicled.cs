@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class ButtonClicled : MonoBehaviour {
 
-    public void NextScene()
+    public void NextScene(string Scene)
     {
-        SceneManager.LoadScene("Historico_1");
+        SceneManager.LoadScene(Scene);
     }
 
     public void QuitGame()
