@@ -112,85 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &7451194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7451195}
-  - component: {fileID: 7451197}
-  - component: {fileID: 7451196}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &7451195
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7451194}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1080440970}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1721798, y: 0.314}
-  m_AnchorMax: {x: 0.83145326, y: 0.6392299}
-  m_AnchoredPosition: {x: -1, y: -0.29999924}
-  m_SizeDelta: {x: 2.100006, y: -0.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7451196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7451194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c8b2f6e1118c1bc4f9b58956615b7f51, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Ele gosta mais ou menos de voc\xEA"
---- !u!222 &7451197
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7451194}
-  m_CullTransparentMesh: 0
 --- !u!1 &10627866
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +400,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Esses problemas que voc\xEA mencionou..."
+  m_Text: This suffering you mentioned...
 --- !u!222 &47765329
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -668,7 +589,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 746416567}
+  - {fileID: 466634332}
   m_Father: {fileID: 1629748951}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -727,85 +648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thiss: {fileID: 121558622}
---- !u!1 &147579925
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 147579926}
-  - component: {fileID: 147579928}
-  - component: {fileID: 147579927}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &147579926
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147579925}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 746416567}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1721798, y: 0.314}
-  m_AnchorMax: {x: 0.83145326, y: 0.6392299}
-  m_AnchoredPosition: {x: -1, y: -0.29999924}
-  m_SizeDelta: {x: 2.100006, y: -0.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &147579927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147579925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c8b2f6e1118c1bc4f9b58956615b7f51, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Ele n\xE3o gostou de voc\xEA "
---- !u!222 &147579928
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147579925}
-  m_CullTransparentMesh: 0
+  numToFinal: {fileID: 0}
 --- !u!1 &182762655
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Como provar que sou Diferente
+  m_Text: I can't prove that i'm different
 --- !u!222 &182762658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1029,7 +872,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Por que \xE9 t\xE3o dificil escutar os outros ?"
+  m_Text: Why can't you listen to me?
 --- !u!222 &197473841
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1382,12 +1225,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : Isso j\xE1 foi um planeta cheio de habitantes, o \xFAnico com mais
-    de um morador nesse Sistema, mas quando um desgra\xE7ado da sua ra\xE7a veio aqui"
-  - "ele enganou os governantes daqui com falsas amea\xE7as, o que levou eles a entrarem
-    em conflitos pol\xEDticos, "
-  - "causando guerras internas e, por fim, a destrui\xE7\xE3o total desse planeta.
-    Voc\xEAs n\xE3o s\xE3o confi\xE1veis."
+  - Back then, this place was full of life, but some scum of your kin came here and
+    destroyed everything with their trickery.
+  - You should not be trusted.
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -2240,7 +2080,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "N\xE3o sou mentiroso !"
+  m_Text: I'm not a liar ...
 --- !u!222 &352690613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2375,12 +2215,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : J\xE1 chega dessas suas mentiras, criatura ignorante! Suma daqui de
-    uma vez! "
+  - Enough with your lies, ignorant creature! Get out of here already!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
-  proximoPainel: {fileID: 1340340795}
+  proximoPainel: {fileID: 121558622}
 --- !u!114 &392615240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2650,6 +2489,136 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456865498}
   m_CullTransparentMesh: 0
+--- !u!1001 &466634331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 121558623}
+    m_Modifications:
+    - target: {fileID: 4275437345760816844, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Name
+      value: Button 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.33400002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.33600003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.88276565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.6576459
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345373200066, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Text
+      value: Sorry, you don't made a friend, I think he did not like you.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c98c3a6f53f31e24585518955c871f83, type: 3}
+--- !u!224 &466634332 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+    type: 3}
+  m_PrefabInstance: {fileID: 466634331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498180592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,7 +2930,7 @@ GameObject:
   - component: {fileID: 620337167}
   - component: {fileID: 620337166}
   m_Layer: 5
-  m_Name: Panel C Lidi
+  m_Name: Panel C Lidi 1
   m_TagString: Panel4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3094,7 +3063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "N\xE3o me interessa suas hist\xF3rias de vida ! "
+  m_Text: Look, i don't care about your story!
 --- !u!222 &642324926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3231,8 +3200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta :Esses problemas que voc\xEA menciona, o que aconteceu aqui, por que
-    tudo aqui est\xE1 destruido? "
+  - This suffering you mentioned...  What happened to this place? Why is everything
+    destroyed?
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -3330,9 +3299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : Por que \xE9 t\xE3o dif\xEDcil escutar os outros pra voc\xEA ?"
-  - "N\xE3o estou me dando trabalho de ir em outros planetas s\xF3 pra espalhar mentiras
-    !"
+  - Why can't you listen to me? I am not spending my time going to other planets just
+    to spread lies!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -3570,81 +3538,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b5365021778f5142831aef5c26882b7, type: 3}
---- !u!1 &746416566
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 746416567}
-  - component: {fileID: 746416569}
-  - component: {fileID: 746416568}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &746416567
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746416566}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
-  m_Children:
-  - {fileID: 147579926}
-  m_Father: {fileID: 121558623}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32525784, y: 0.32539585}
-  m_AnchorMax: {x: 0.88500005, y: 0.54700005}
-  m_AnchoredPosition: {x: 0.5002899, y: -0.99983215}
-  m_SizeDelta: {x: 6, y: 2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &746416568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746416566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2b0d2802ca6a0fb459fce383856e7e5b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &746416569
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746416566}
-  m_CullTransparentMesh: 0
 --- !u!1 &792779013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3796,8 +3689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : Como eu pensei, um ser ignorante como voc\xEA nunca ir\xE1 entender!
-    Suma da minha vis\xE3o! "
+  - As I thought, an ignorant being like you would never understand! Get out of my
+    sight!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -3970,12 +3863,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta: N\xE3o tenho como provar que sou diferente desse cara, mas se voc\xEA
-    simplesmente guardar \xF3dio e ang\xFAstias"
-  - "n\xE3o vai a lugar algum, se voc\xEA quiser viver e talvez at\xE9 livrar o mundo
-    aquele cara ou da viol\xEAncia"
-  - "pe\xE7o que venha comigo, eu consigo pelo menos te salvar de uma destrui\xE7\xE3o
-    ainda maior"
+  - I can't prove that i'm different from them, or that I am saying the truth, but
+    if you keeping holding on to this hatred.
+  - You're not getting anywhere, if you want to live and do something about those
+    people
+  - I kindly ask you to come with me, at least I can save you from an even bigger
+    destruction.
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -4225,10 +4118,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta: Eu ser humano como ele n\xE3o quer dizer que eu sou mentiroso tamb\xE9m
-    !"
-  - "Eu s\xF3 quero salvar os habitantes desse Sistema Solar, eu s\xF3 pe\xE7o que
-    confie em mim !"
+  - Just because I'm a human like them it doesn't mean I'm also a liar!
+  - I just want to save everybody around this solar system, I just need you to trust
+    me!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -4345,7 +4237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Haver\xE1 uma supernova"
+  m_Text: If I leave, both you and your planet will be destroyed.
 --- !u!222 &917454097
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4354,6 +4246,136 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917454094}
   m_CullTransparentMesh: 0
+--- !u!1001 &919579536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1565487324}
+    m_Modifications:
+    - target: {fileID: 4275437345760816844, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Name
+      value: Button 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.34800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.33975005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.8944844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.6576459
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345373200066, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Text
+      value: Congratulations, You made a friend !!!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c98c3a6f53f31e24585518955c871f83, type: 3}
+--- !u!224 &919579537 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+    type: 3}
+  m_PrefabInstance: {fileID: 919579536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &934953421
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,7 +4446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Que motivo eu teria pra mentir
+  m_Text: Why would I lie?
 --- !u!222 &934953424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4709,9 +4731,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon: Pelo seu tom de voz, parece que voc\xEA est\xE1 falando a verdade."
-  - "Que seja, eu irei contigo, n\xE3o consigo mais olhar para esse cen\xE1rio"
-  - sem lembrar do sofrimento daqueles que moravam aqui
+  - Looks like you're really not lying. Whatever, I am going with you.
+  - I can't look at this place without remembering the suffering of the people that
+    once lived here anyways...
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -4958,9 +4980,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon: Algu\xE9m que n\xE3o passou por todos os problemas desse planeta nunca
-    entenderia !"
-  - "E n\xE3o me venha com esse papo rid\xEDculo do Sol destruir tudo !"
+  - You wouldn't understand what happened here! And stop with this "world destruction"
+    nonsense!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -5058,8 +5079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : E por que eu acreditaria em voc\xEA,"
-  - uma criatura qualquer estrangeira falando algo absurdo como isso !?
+  - Why should I trust, some stranger creature, saying something this absurd!?
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -5255,81 +5275,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055338126}
   m_CullTransparentMesh: 0
---- !u!1 &1080440969
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1080440970}
-  - component: {fileID: 1080440972}
-  - component: {fileID: 1080440971}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1080440970
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080440969}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
-  m_Children:
-  - {fileID: 7451195}
-  m_Father: {fileID: 1538180116}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32525784, y: 0.32539585}
-  m_AnchorMax: {x: 0.88500005, y: 0.54700005}
-  m_AnchoredPosition: {x: 0.5003052, y: -0.9998474}
-  m_SizeDelta: {x: 6, y: 2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1080440971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080440969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2b0d2802ca6a0fb459fce383856e7e5b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &1080440972
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080440969}
-  m_CullTransparentMesh: 0
 --- !u!1 &1080558371
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,7 +5287,7 @@ GameObject:
   - component: {fileID: 1080558374}
   - component: {fileID: 1080558373}
   m_Layer: 5
-  m_Name: Panel CC Astro
+  m_Name: Panel C Astro 2
   m_TagString: Panel4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5479,81 +5424,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088412726}
-  m_CullTransparentMesh: 0
---- !u!1 &1093910083
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1093910084}
-  - component: {fileID: 1093910086}
-  - component: {fileID: 1093910085}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1093910084
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093910083}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1364608543}
-  m_Father: {fileID: 1565487324}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32525784, y: 0.32539585}
-  m_AnchorMax: {x: 0.88500005, y: 0.54700005}
-  m_AnchoredPosition: {x: 0.5, y: -1}
-  m_SizeDelta: {x: 6, y: 2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1093910085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093910083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2b0d2802ca6a0fb459fce383856e7e5b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &1093910086
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093910083}
   m_CullTransparentMesh: 0
 --- !u!1 &1119044899
 GameObject:
@@ -5749,9 +5619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : Que motivo eu teria pra mentir ? Imagino que voc\xEA passou por
-    situa\xE7\xF5es dif\xEDceis. "
-  - "Mas nesse momento, voc\xEA precisa superar o passado, por mais d\xEDcil que seja."
+  - Why would I lie? You probably have been through a lot, but for now, i need you
+    to overcome your doubts, however hard it may be!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -5810,7 +5679,7 @@ GameObject:
   - component: {fileID: 1143657928}
   - component: {fileID: 1143657927}
   m_Layer: 5
-  m_Name: Panel C Astro
+  m_Name: Panel C Astro 1
   m_TagString: Panel4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5885,7 +5754,7 @@ GameObject:
   - component: {fileID: 1144875623}
   - component: {fileID: 1144875622}
   m_Layer: 5
-  m_Name: Options CCC
+  m_Name: Options CCC 1
   m_TagString: Panel5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6366,8 +6235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : N\xE3o me interessa suas hist\xF3rias de vida! Se perdermos tempos
-    aqui, todos ir\xE3o morrer! "
+  - Look, i don't care about your story! If we waste our time here, everyone will
+    die!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -6484,7 +6353,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Viva seu presente !
+  m_Text: Live your present !
 --- !u!222 &1209835980
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6544,9 +6413,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : Viva seu presente ! Se voc\xEA ficar ai parado, nada vai mudar."
-  - "Continuar\xE1 olhando para esse cen\xE1rio destruido e se lamentando."
-  - "Voc\xEA sobreviveu por um motivo, agora busque esse motivo !"
+  - Live your present! I can't assure you I am different from those people, but if
+    you keep thinking about your past like that.
+  - You'll keep looking at this destroyed scenery doing absolutely nothing, you survived
+    for a reason, look for it!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -6903,9 +6773,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Voc\xEA... Estrangeiros n\xE3o s\xE3o bem-vindos aqui, este lugar j\xE1 sofreu
-    o suficiente."
-  - Suma desse planeta, ou EU, Lidiyon, irei te tirar daqui !
+  - You... Strangers aren't welcome here,this place already suffered too much, leave
+    this planet, or I, Lidiyon, will take you out of here!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -6999,7 +6868,7 @@ GameObject:
   - component: {fileID: 1346698368}
   - component: {fileID: 1346698367}
   m_Layer: 5
-  m_Name: Options C
+  m_Name: Options C 1
   m_TagString: Panel5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7076,7 +6945,7 @@ GameObject:
   - component: {fileID: 1364385369}
   - component: {fileID: 1364385368}
   m_Layer: 5
-  m_Name: Panel CC Lidi
+  m_Name: Panel C Lidi 2
   m_TagString: Panel4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7139,85 +7008,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364385366}
   m_CullTransparentMesh: 0
---- !u!1 &1364608542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1364608543}
-  - component: {fileID: 1364608545}
-  - component: {fileID: 1364608544}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1364608543
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364608542}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1093910084}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1721798, y: 0.314}
-  m_AnchorMax: {x: 0.83145326, y: 0.6392299}
-  m_AnchoredPosition: {x: -1, y: -0.29999924}
-  m_SizeDelta: {x: 2.100006, y: -0.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1364608544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364608542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c8b2f6e1118c1bc4f9b58956615b7f51, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Ele virou seu amigo \n"
---- !u!222 &1364608545
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364608542}
-  m_CullTransparentMesh: 0
 --- !u!1 &1460611579
 GameObject:
   m_ObjectHideFlags: 0
@@ -7269,12 +7059,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : No momento eu n\xE3o tenho como te provar que eu n\xE3o estou mentindo
-    ou que eu sou diferente do homem que veio causar problemas ao seu planeta,"
-  - "mas do que adianta ficar parado olhando ru\xEDnas e ve\xEDculos destru\xEDdos
-    e se angustiar pelo passado?"
-  - "Voc\xEA com certeza sobreviveu por algum motivo, e eu estou disposto a te salvar
-    para que voc\xEA ache essa raz\xE3o."
+  - I can't prove that i'm saying the truth that i'm different from the people that
+    destroyed your planet.
+  - But tormenting yourself and looking at these ruins won't solve anything.
+  - You survived for a reason, and I am willing to save you so you can find it.
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -7321,6 +7109,136 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460611579}
   m_CullTransparentMesh: 0
+--- !u!1001 &1462762409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1538180116}
+    m_Modifications:
+    - target: {fileID: 4275437345760816844, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Name
+      value: Button 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.3291172
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.33339587
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.88100004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.6576458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275437345373200066, guid: c98c3a6f53f31e24585518955c871f83,
+        type: 3}
+      propertyPath: m_Text
+      value: He likes you, but he does not trust you.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c98c3a6f53f31e24585518955c871f83, type: 3}
+--- !u!224 &1462762410 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4275437345760816845, guid: c98c3a6f53f31e24585518955c871f83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1462762409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1492121297
 GameObject:
   m_ObjectHideFlags: 0
@@ -7372,10 +7290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : A situa\xE7\xE3o desse planeta \xE9 resultado da corrup\xE7\xE3o no
-    cora\xE7\xE3o dos outros !"
-  - "Tudo por causa de criaturas como voc\xEA ! N\xE3o se deve confiar em ningu\xE9m
-    ! Esse povo viveu e morreu da guerra e da mentira !"
+  - The condition of this planet is a result of your kin's corruption! I can't trust
+    anyone!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -7452,7 +7368,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1080440970}
+  - {fileID: 1462762410}
   m_Father: {fileID: 1629748951}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7474,6 +7390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thiss: {fileID: 1538180115}
+  numToFinal: {fileID: 0}
 --- !u!114 &1538180118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7562,9 +7479,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : Ent\xE3o voc\xEA vai me julgar por causa de um homem da minha ra\xE7a
-    que veio para c\xE1?"
-  - "Como voc\xEA pretende viver com esse \xF3dio e desconfian\xE7a guardados em voc\xEA!?"
+  - So you're gonna judge me just because another human came here? How can you live
+    with that hatred on your heart?
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -7641,7 +7557,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1093910084}
+  - {fileID: 919579537}
   m_Father: {fileID: 1629748951}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7700,6 +7616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thiss: {fileID: 1565487323}
+  numToFinal: {fileID: 0}
 --- !u!1 &1571360387
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,7 +8037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Achei o Sr. Gentileza !
+  m_Text: Looks like I found Mr. Nice Guy here!
 --- !u!222 &1664161277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8398,9 +8315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon: J\xE1 chega dessas suas mentiras"
-  - "eu n\xE3o tenho motivos para confiar em voc\xEA !"
-  - Suma daqui de uma vez !
+  - Enough with your lies! I have no reason to believe in you! Leave this place!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -8517,7 +8432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA vai me julgar ?"
+  m_Text: So you're gonna judge me
 --- !u!222 &1761778118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8951,9 +8866,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - 'Astronauta : Aparentemente eu achei o Sr.Gentileza aqui !'
-  - Boa sorte cuidando do seu planeta, enquanto o Sol frita ele e todo o seu Sistema
-    Solar junto !
+  - Looks like I found Mr. Nice Guy here! Good luck taking care of your planet, while
+    the Sun burns it and takes you with it!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -9288,7 +9202,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Como provar que eu n\xE3o estou mentindo"
+  m_Text: I can't prove that i'm saying the truth
 --- !u!222 &1884586562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9348,9 +9262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Astronauta : Se eu \"Sumir\" daqui, tanto seu planeta quanto voc\xEA ir\xE3o
-    juntos"
-  - "Haver\xE1 uma supernova no seu sistema solar, e ele destruir\xE1 tudo por aqui"
+  - If I leave, both you and your planet will be destroyed. This solar system will
+    be taken out by a supernova!
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -9523,9 +9436,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : ... ... ... Eu sobrevivi por algum motivo, hm? Tem raz\xE3o, se eu
-    n\xE3o fizer algo, nada vai mudar."
-  - 'Certo, eu vou contigo! '
+  - '...I survived for a reason, huh? You''re right, nothing will change if keep lamenting
+    myself here.'
+  - Alright, i'm going with you.
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -9841,9 +9754,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon : O povo desse planeta se destruiu sozinho por pol\xEDticas rid\xEDculas,
-    gan\xE2ncia e conformidade."
-  - "Eu sou o \xFAnico sobrevivente daqui, como eu devo superar isso !?"
+  - This planet was destroyed by your kind, and now I am the only survivor here! How
+    should I overcome this!?
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
@@ -10382,9 +10294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueStrings:
-  - "Lidiyon: ... Tem raz\xE3o, se eu deixar o \xF3dio me dominar enquanto eu fico
-    parado esperando por nada"
-  - "eu n\xE3o vou ser nada diferente daqueles que causaram essa destrui\xE7\xE3o."
+  - '...You''re right, if I keep waiting for some miracle to happen, I am no different
+    from the jaded people that lived here.'
+  - I'm going with you.
   SecondsBetweenCharacters: 0.02
   CharacterRateMultiplier: 0.1
   DialogueInput: 323
